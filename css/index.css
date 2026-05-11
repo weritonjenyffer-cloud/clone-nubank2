@@ -13,6 +13,7 @@
 html {
     font-size: 62.5%;
 }
+
 /* area de navegação */
 nav {
     display: flex;
@@ -73,34 +74,38 @@ nav {
     cursor: pointer;
     z-index: 9;
 }
+
 /* primeiro  hover da area de navegação */
 .nu1 {
     display: flex;
     justify-content: space-evenly;
     align-items: end;
     padding-bottom: 6rem;
-    width: 80vw;
+    width: 80%;
     height: 60vh;
     background-color: var(--cinza);
     border-radius: 0 0 2rem 2rem;
     position: absolute;
     top: 8rem;
-    left: 9vw;
+    left: 10%;
     right: 10%;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
     transform: translateY(-20px);
 }
-.bank1:hover .nu1{
+
+.bank1:hover .nu1 {
     transform: translate(0);
     opacity: 1;
     visibility: visible;
 }
-.img1{
+
+.img1 {
     width: 25rem;
     border-radius: 1rem;
 }
+
 .nubank {
     display: flex;
     flex-direction: column;
@@ -109,24 +114,30 @@ nav {
     height: 40rem;
 }
 
-.nubank2, .nubank3 {
+.nubank2,
+.nubank3 {
     width: 20%;
     height: 35rem;
 }
-.nubank22, .nubank33 {
+
+.nubank22,
+.nubank33 {
     list-style-type: none;
     line-height: 5rem;
 }
-.nubank2 li:hover, .nubank33 li:hover{
+
+.nubank2 li:hover,
+.nubank33 li:hover {
     color: var(--rocho);
 }
+
 /* segundo hover da area de navegação */
-.nu2{
+.nu2 {
     display: flex;
     justify-content: space-evenly;
     align-items: end;
     padding-bottom: 5rem;
-    width: 80vw;
+    width: 80%;
     height: 60vh;
     background-color: var(--cinza);
     border-radius: 0 0 2rem 2rem;
@@ -140,34 +151,43 @@ nav {
     transform: translatey(-20px);
     
 }
-.bank2:hover .nu2{
+
+.bank2:hover .nu2 {
     opacity: 1;
     visibility: visible;
     transform: translatey(0);
 }
-.img2{
+
+.img2 {
     padding-bottom: 3rem;
 }
-.nubank4 p{
+
+.nubank4 p {
     padding: 2rem 0;
 }
-.nubank4{
+
+.nubank4 {
     width: 35%;
-    height:40rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     line-height: 2.3rem;
 }
+
 .nubank5,
-.nubank6{
+.nubank6 {
     width: 25%;
 }
-.nubank55 li, .nubank66 li{
+
+.nubank55 li,
+.nubank66 li {
     font-size: 1.8rem;
     padding-bottom: 4rem;
 }
-.nubank55, .nubank66{
+
+.nubank55,
+.nubank66 {
     overflow: hidden;
     height: 38rem;
     display: flex;
@@ -175,36 +195,42 @@ nav {
     flex-wrap: wrap;
     list-style-type: none;
 }
-.nubank55 li:hover, .nubank66 li:hover{
+
+.nubank55 li:hover,
+.nubank66 li:hover {
     color: var(--rocho);
 }
+
 /* area principal da pagina */
-.section1{
+.section1 {
     background-image: url(/imagem/nubank-criptomoedas.jpg);
     background-size: 100% 89%;
     background-position: bottom;
-    width: 80vw;
+    width: 80%;
     height: 85vh;
     border-radius: 0 0 3rem 3rem;
     margin: 0 auto;
     
 }
-.section2{
+
+.section2 {
     background-color: rgb(17, 17, 17, .5);
     border-radius: 0 0 3rem 3rem;
-    width: 80vw;
+    width: 100%;
     height: 85vh;
     display: flex;
     align-items: end;
     justify-content: space-evenly;
 }
-.title{
+
+.title {
     font-size: 2rem;
     color: white;
     padding-bottom: 8rem;
     width: 45%;
 }
-.form{
+
+.form {
     background-color: white;
     border-radius: 3rem;
     margin-bottom: 8rem;
@@ -216,11 +242,14 @@ nav {
     align-items: center;
     box-shadow: rgb(212, 223, 235) 0px 20px 30px -10px;
 }
-.title2{
+
+.title2 {
     font-size: 1.5rem;
     padding: 0 1rem;
 }
-.cpf, .btn{
+
+.cpf,
+.btn {
     width: 90%;
     border: none;
     background-color: var(--cinza);
@@ -228,7 +257,8 @@ nav {
     border-radius: 1rem;
     padding-left: 1rem;
 }
-.btn{
+
+.btn {
     background-color: var(--rocho);
     color: rgb(247, 246, 246);
     display: flex;
@@ -237,21 +267,24 @@ nav {
     padding: 0 1rem;
     cursor: pointer;
 }
+
 /* segunda area da pagina */
-.section3{
-    width: 100vw;
+.section3 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.title4{
+
+.title4 {
     margin: 6rem 0 14rem;
     text-align: center;
-    width: 60vw;
+    width: 60%;
     font-size: 3rem;
     color: black;
 }
-.caixa{
+
+/* onde esta localizado o conteudo da segunda area */
+.caixa {
     width: 75%;
     height: 60vh;
     position: relative;
@@ -261,7 +294,9 @@ nav {
     transform: translateX();
     transition: all 1s ease;
 }
-.imagem1{
+
+/* as imagem */
+.imagem1 {
     width: 30%;
     height: 53vh;
     border-radius: 3rem;
@@ -269,14 +304,16 @@ nav {
     left: 10rem;
     cursor: pointer;
 }
-.imagem2{
+
+.imagem2 {
     width: 30%;
     height: 60vh;
     border-radius: 3rem;
     cursor: pointer;
     z-index: 9;
 }
-.imagem3{
+
+.imagem3 {
     width: 30%;
     height: 53vh;
     border-radius: 3rem;
@@ -284,15 +321,19 @@ nav {
     right: 10rem;
     cursor: pointer;
 }
-.caixa:hover .imagem1{
+
+.caixa:hover .imagem1 {
     height: 60vh;
     transform: translateX(-80px);
 }
-.caixa:hover .imagem3{
+
+.caixa:hover .imagem3 {
     height: 60vh;
     transform: translateX(80px);
 }
-.title5{
+
+/* os titulos  em cima da imagem */
+.title5 {
     display: flex;
     justify-content: space-around;
     width: 30%;
@@ -303,7 +344,8 @@ nav {
     right: 2rem;
     color: var(--rocho);
 }
-.title6{
+
+.title6 {
     display: flex;
     justify-content: space-around;
     width: 30%;
@@ -313,7 +355,8 @@ nav {
     top: -5rem;
     color: var(--rocho);
 }
-.title7{
+
+.title7 {
     display: flex;
     justify-content: space-around;
     width: 30%;
@@ -324,10 +367,15 @@ nav {
     left: 2rem;
     color: var(--rocho);
 }
-.caixa:hover .title5, .caixa:hover .title6, .caixa:hover .title7 {
+
+.caixa:hover .title5,
+.caixa:hover .title6,
+.caixa:hover .title7 {
     visibility: visible;
 }
-.btn1{
+
+/* os botões que fica em cima da imagem */
+.btn1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -346,7 +394,8 @@ nav {
     cursor: pointer;
     z-index: 10;
 }
-.btn2{
+
+.btn2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -364,7 +413,8 @@ nav {
     cursor: pointer;
     z-index: 10;
 }
-.btn3{
+
+.btn3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -384,9 +434,43 @@ nav {
     color: white;
     z-index: 10;
 }
-.caixa:hover .btn1, .caixa:hover .btn2, .caixa:hover .btn3{
+
+.caixa:hover .btn1,
+.caixa:hover .btn2,
+.caixa:hover .btn3 {
     visibility: visible;
 }
+/* terceira area da pagina */
+.cartao {
+    margin: 15rem 10%;
+    display: flex;
+}
+.title3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title3 h2{
+    font-size: 5rem;
+    margin-bottom: 4rem ;
+}
+.title3 p{
+    font-size: 3rem;
+    margin-bottom: 4rem ;
+}
+.btn-cartao{
+    width: 50%;
+    border: none;
+    background-color: var(--rocho);
+    color: white;
+    height: 4rem;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+}
+.img-cartao {
+    width: 100%;
+}
+
 @media (max-width: 1024px) {
     body {
         background-color: rgb(82, 81, 81);
